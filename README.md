@@ -1,5 +1,3 @@
-# LetoBBS
-
 LetoBBS is the second message board software written in PHP mainly for the AkiChannel boards. It's purpose is to replace the currently active JesenBBS board software, maintaining it's core features while not repeating some of it's more critical development mistakes.
 
 Core strengths identified in JesenBBS that will remain in LetoBBS:
@@ -13,7 +11,7 @@ Core strengths identified in JesenBBS that will remain in LetoBBS:
 Issues identified in JesenBBS that require resolution in LetoBBS at a foundational level:
 - MySQL as a hard dependency. Switch to PDO
 - Designed around Apache web server environments. Must consider other web servers
-- Overreliance on <div>s. The Futaba-like layout is best suited to <table>s instead, which also increases compatibility with text-based browsers like Links
+- Overreliance on divs. The Futaba-like layout is best suited to tables instead, which also increases compatibility with text-based browsers like Links
 - Insufficient modularity. Too much code is repeated across TUs
 - Poorly written functions. Many functions consist of dozens of haphazardly written echo statements.
 - Overly minimal styling
